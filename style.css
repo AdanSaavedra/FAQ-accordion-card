@@ -20,7 +20,7 @@ body{
 }
 main{
     display: flex;
-    background-color: var(--dividers);
+    background-color: white;
     width: 900px;
     height: 510px;
     border-radius: 24px;
@@ -78,7 +78,7 @@ details p{
 }
 details{
     margin-bottom: 20px;
-    border-bottom: 1px solid var(--info-texts);
+    border-bottom: 1px solid var(--dividers);
     color: var(--unselected-texts);
     padding-bottom: 10px;
 }
