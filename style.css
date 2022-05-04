@@ -88,6 +88,9 @@ details > summary {
     display: flex;
     justify-content: space-between;
 }
+details > summary::-webkit-details-marker {
+    display: none;
+}
 details summary:hover{
     color: var(--hover-texts);
     cursor: pointer;
